@@ -1,0 +1,139 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #F9F9F9;
+    font-family: sans-serif;
+    background: #f1f1f1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #404040;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+
+    .container {
+        max-width: 1400px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .container {
+        max-width: 1170px;
+    }
+
+}
+p {
+    margin: 0;
+}
+
+
+.hr {
+    margin-right: -20px;
+    border-color: #ccc;
+}
+
+/*------scroll bar---------------------*/
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 7px;
+    }
+    
+    ::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    background: #277a71;
+    border: 0px none #ffffff;
+    border-radius: 0px;
+    }
+/*---Acaba aqui o scroll bar -------*/
+
+.menu-btn{
+    color: #f1f1f1;
+    cursor: pointer;
+    float: left;
+    position: absolute;
+    font-size: 20px;
+    height: 60px;
+    padding: 20px 20px;
+  }
+  .menu-btn:hover{
+    background-color: #212529;
+  }
+  
+
+/*------Design of perfil------*/ 
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0) ;
+}
+/*------Design do menu------*/ 
+.item_comeco{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #263238;
+    height: 63px;
+    padding-top: 3px;
+    background-image: url(https://i.imgur.com/3EBRShX.png);
+    background-repeat: repeat-x;
+    z-index: 99;
+  }
+  .item_te{
+    display: block;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: .2px;
+    max-width: 100%;
+    padding: 15px 0px;
+    padding-left: 5%;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    position: fixed;
+  }
+  .item_user{
+    color: #FFF;
+    display: block;
+    float: right;
+    font-size: 15px;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    position: relative;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+  }
+ 
